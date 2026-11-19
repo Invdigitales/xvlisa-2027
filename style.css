@@ -1,0 +1,965 @@
+.click {
+    padding: 2px 10px;
+    margin-top: -150%;
+    font-size: 28px;
+    font-weight: 600;
+    color: #ffffff;
+   background-image: url(./imagenes/45e46f49fb55a01ba4e4685d985abf48.gif);
+   background-size: 120%;
+    box-shadow: 1px 1px 30px -5px#a6a6a6; 
+    cursor: pointer;
+    margin-left: 81%;
+    border-radius: 50%;
+    background-color: #4a4a4a;
+  }
+  
+  .melodia{
+    color: #ffffff;
+  }
+
+
+
+  
+  
+  .portada{
+    width: 100%;
+    margin-top: -5%;
+  }
+    
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+      .cuenta-regresiva {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        gap: 1em;
+        padding: 0.3em;
+        margin-top: -1%;
+    }
+    
+  .portada{
+    width: 100%;
+  }
+    
+    .cr-time > span {
+        font-size: 32px;
+        font-weight: bold;
+        color: #345d7e;
+        font-family: 'Julius Sans One', sans-serif;
+        
+        
+    }
+    .cr-desc {
+        color: #737373;
+        font-weight: 500;
+        font-family: 'Julius Sans One', sans-serif;
+        font-size: 18px;
+        
+    }
+    .cr-block {
+        border-radius: 5px;
+        padding: 0.1em 0.2em;
+      
+    }
+    
+    
+    .segundo{
+  width: 17%;
+  margin-top: -25%;
+  margin-left: 68%;
+    }
+  
+    
+  
+    .amor {
+      width: 10%;
+      margin-left: 45%;
+      margin-top: 75%;
+    }
+      
+      .preloader {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #e9e9e9;
+        z-index: 9999;
+      
+      }
+      
+      .preloader::after {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 40px;
+        height: 40px;
+        margin: -20px 0 0 -20px;
+        border: 4px solid #76bac204; /* Color del círculo */
+        border-top-color: transparent;
+        border-radius: 50%;
+        animation: spin 6s linear infinite;
+      }
+      
+      @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      
+      }
+      
+      .loaded {
+        overflow: auto;
+      }
+      
+      .loaded .preloader {
+        transition-property: opacity, left;
+        transition-duration: 0.95s, 0s;
+        transition-delay: 0s, 0.95s;
+        opacity: 0;
+        left: 100%;
+      }
+  .corados{
+width: 15%;
+display: block;
+  margin: 0 auto;
+
+
+}
+
+.falta{
+  font-family: "Aboreto", system-ui;
+  text-align: center;
+  font-size: 35px;
+  color: #376282;
+  margin-top: 20px;
+}
+ 
+
+.linea {
+  height: 6px;
+  width: 100%;
+  background: linear-gradient(to bottom, #8ab4c6c9, rgba(122,165,184,0));
+  filter: blur(1px);
+  margin-top: -7%;
+}
+
+
+/* CONTENEDOR PRINCIPAL */
+.portad {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+}
+
+/* CONTENIDO */
+.contenido {
+  max-width: 400px;
+}
+
+/* TITULOS */
+.titulo {
+  font-size: 40px;
+  letter-spacing: 4px;
+  color: #2c4a66;
+  margin-bottom: 40px;
+  font-family: "Aboreto", system-ui;
+}
+
+.subtitulo {
+  font-size: 30px;
+  color: #8aa3b5;
+  margin-top: 30px;
+  margin-bottom: 5px;
+  font-family: "Aboreto", system-ui;
+}
+
+/* TEXTO */
+.texto {
+  font-size: 20px;
+  color: #5f6f7a;
+  margin-bottom: 25px;
+}
+
+/* BOTONES */
+
+
+.btn:hover {
+  background-color: #17486f;
+  
+}
+.ubi{
+      padding: 2px 10px;
+       font-family: "Aboreto", system-ui;
+      margin-top: -15%;
+      font-size: 20px;
+      border: none;
+      color: #fcfcfc;
+     background-size: 150%;
+      box-shadow: 1px 1px 30px -5px#98ced2; 
+      cursor: pointer;
+      background-color: #345d7e;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
+
+
+
+/* LINEA CON SOMBRA (la azul de tu imagen) */
+.linea-sombra {
+  width: 100%;
+  height: 6px;
+  background: linear-gradient(to right, transparent, #1e4d7a, transparent);
+  box-shadow: 0px -5px 15px rgba(0,0,0,0.2);
+  
+}
+
+  .copas{
+    width: 20%;
+    display: block;
+  margin: 0 auto;
+    margin-top: 5%;
+    
+  }
+
+
+body {
+  margin: 0;
+  font-family: 'Georgia', serif;
+  background-color: #f5f5f5;
+}
+
+/* SECCIÓN */
+.galeria {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+/* TITULO */
+.titulo {
+  font-size: 40px;
+  letter-spacing: 3px;
+  color: #2c4a66;
+  margin-bottom: 10px;
+}
+
+/* TEXTO */
+.descripcion {
+  color: #6c7a86;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+/* ICONO */
+.icono {
+  width: 10%;
+    display: block;
+  margin: 0 auto;
+    margin-top: 5%;
+}
+
+/* CONTENEDOR DE FOTOS */
+.contenedor-fotos {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 15%;
+}
+
+/* TARJETAS */
+.card {
+  background-color: #e1e4e6;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+.card:nth-child(2) {
+  background-color: #dcdee1;
+}
+
+/* IMAGEN */
+.card img {
+  width: 200px;
+  height: 250px;
+  object-fit: cover;
+  display: block;
+}
+
+/* HOVER */
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* PUNTITO ABAJO */
+.punto {
+  width: 10px;
+  height: 10px;
+  background-color: #9fb3c3;
+  border-radius: 50%;
+  margin: 40px auto 0;
+}
+
+
+
+/* FONDO GENERAL */
+.dresscode-section {
+  background-color: #aebdc8;
+  display: flex;
+  justify-content: center;
+}
+
+/* CARD */
+.card-dresscode {
+  background-color: #f3f3f3;
+  width: 100%;
+  max-width: 600px;
+  padding: 60px 30px;
+  text-align: center;
+  box-shadow: 0px 5px 20px rgba(0,0,0,0.1);
+}
+
+/* TITULO */
+.titulo {
+  font-size: 32px;
+  letter-spacing: 3px;
+  color: #2c4a66;
+  margin-bottom: 40px;
+}
+
+/* ICONO */
+.percha{
+  width: 20%;
+    display: block;
+  margin: 0 auto;
+    margin-top: 5%;
+}
+
+/* TEXTO */
+.texto {
+  font-size: 18px;
+  color: #5f6f7a;
+  margin-bottom: 40px;
+  line-height: 1.5;
+}
+
+/* BOTON */
+.btn {
+  display: inline-block;
+  background-color: #0f2f4a;
+  color: white;
+  padding: 14px 40px;
+  border-radius: 12px;
+  text-decoration: none;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #17486f;
+}
+
+
+/* SECCION GENERAL */
+.musicaa {
+  margin-top: -5%;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+/* TITULO */
+.titulo-musicaa {
+ 
+  font-family: "Aboreto", system-ui;
+  text-align: center;
+  font-size: 35px;
+  color: #376282;
+  margin-top: 20px;
+}
+.titulo-fiesta {
+ 
+  font-family: "Aboreto", system-ui;
+  text-align: center;
+  font-size: 35px;
+  color: #376282;
+  margin-top: 20px;
+}
+
+/* DESCRIPCION */
+.desc-musicaa {
+  font-size: 20px;
+  color: #5f6f7a;
+  margin-bottom: 50px;
+}
+
+/* CARD */
+.card-musica {
+  background-color: #f3f3f3;
+  max-width: 650px;
+  margin: auto;
+  padding: 60px 30px;
+  border-radius: 25px;
+  box-shadow: 0px 5px 20px rgba(0,0,0,0.1);
+}
+
+/* SUBTITULO */
+.subtitulo {
+  font-size: 28px;
+  letter-spacing: 3px;
+  color: #2c4a66;
+  margin-bottom: 30px;
+}
+
+/* ICONO */
+.icono {
+  font-size: 50px;
+  color: #9fb3c3;
+  margin-bottom: 30px;
+}
+
+/* TEXTO */
+.texto {
+  font-size: 18px;
+  color: #5f6f7a;
+  margin-bottom: 40px;
+}
+
+/* BOTON */
+.btn {
+  display: inline-block;
+  background-color: #0f2f4a;
+  color: #fff;
+  padding: 14px 35px;
+  border-radius: 12px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #17486f;
+}
+
+
+.rsvp-form {
+
+  margin: 0 auto;
+   font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  color: #414141;
+  text-align: center;
+ 
+}
+
+.rsvp-form label {
+  display: block;
+  margin-top: -20px;
+  font-size: 13px;
+}
+
+.rsvp-form input[type="text"] {
+  width: 80%;
+  background:   rgb(255, 255, 255); 
+  border: none;
+  border-bottom: 1px solidrgb(143, 140, 140)2;
+  padding: 8px 0;
+  color: #3c3c3c;
+  margin-top: 3%;
+}
+
+.rsvp-form input::placeholder {
+  color: #4a4545;
+}
+
+.rsvp-form button {
+  margin-top: 30px;
+  padding: 12px;
+  width: 80%;
+  border: 1px solid #bab3b3;
+  background:  #667c91;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.rsvp-form button:hover {
+  background: #ffffff;
+  color: #36518a;
+}
+/* FONDO */
+.tips-section {
+  background-color: #edf8ff;
+  padding: 60px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+/* CARD */
+.card-tips {
+  background-color: #f3f3f3;
+  width: 100%;
+  max-width: 600px;
+  padding: 60px 30px;
+  border-radius: 30px;
+  text-align: center;
+  box-shadow: 0px 5px 20px rgba(0,0,0,0.1);
+}
+
+/* TITULO */
+.titulo {
+  font-size: 32px;
+  letter-spacing: 3px;
+  color: #2c4a66;
+  margin-bottom: 40px;
+}
+
+/* ICONO */
+.icono {
+  font-size: 55px;
+  color: #9fb3c3;
+  margin-bottom: 30px;
+}
+
+/* TEXTO */
+.texto {
+  font-size: 18px;
+  color: #5f6f7a;
+  margin-bottom: 40px;
+  line-height: 1.5;
+}
+.tarjeta{
+   width: 15%;
+    display: block;
+  margin: 0 auto;
+    margin-top: 5%;}
+/* BOTON */
+.btn {
+  display: inline-block;
+  background-color: #0f2f4a;
+  color: #fff;
+  padding: 14px 40px;
+  border-radius: 12px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #17486f;
+}
+
+ .final{
+    width: 100%;
+    margin-top: -4%;
+    
+  }
+
+
+  .corazonfinal{
+width: 10%;
+display: block;
+  margin: 0 auto;
+  margin-top: -52%;
+
+
+}
+
+.box__copyright {
+  max-width: 1200px;
+  padding: 18px 7px;
+  text-align: center;
+  background-color: #ffffff;
+  font-size: 100%;
+}
+
+
+.footer{
+  margin-top: 170px;
+  color: #949494;
+  font-size: 12px;
+  text-align: center;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #b9b393;
+}
+
+
+
+/* Fondo general */
+.hero {
+  width: 100%;
+  height: 100vh;
+  background-color: #f4f6f8; /* color celeste/gris */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* Contenido */
+.contenido {
+  max-width: 600px;
+}
+
+.fotos {
+   font-family: "Aboreto", system-ui;
+  text-align: center;
+  font-size: 35px;
+  color: #376282;
+  margin-top: -55%;
+}
+
+/* Subtítulo */
+.subtitulo {
+  font-size: 18px;
+  color: #4a6a85;
+  margin-bottom: 40px;
+}
+
+/* Icono */
+.icono img {
+  width: 60px;
+  opacity: 0.5;
+  margin-bottom: 20px;
+}
+
+/* Hashtag */
+.hashtag {
+  font-size: 32px;
+  color: #3b5c7a;
+  margin-bottom: 30px;
+  letter-spacing: 2px;
+}
+
+/* Botón */
+.btn {
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: #0d2c4a;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #123a63;
+}
+
+ .instagram img{
+    width: 10%;
+    display: block;
+  margin: 0 auto;
+    margin-top: -3%;
+    
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.parrafo1{
+      text-align: center;
+      font-family: 'Julius Sans One', sans-serif;
+           font-size: 20px;
+           color: #626262;
+           font-weight: 600;
+           margin-top: 20%;
+    }
+  .seccion-fiesta{
+    margin-top: -5%;
+  }
+  .seccion-regalo{
+    margin-top: -4%;
+  }
+  
+  .frase{
+    text-align: center;
+    font-size: 28px;
+    color: #636363;
+    font-weight: 550;
+    margin: 13%;
+    font-family: 'Dancing Script', cursive; 
+    margin-top: 20%;
+  }
+  .fiesta{
+      font-size: 40px;
+  letter-spacing: 3px;
+  color: #2c4a66;
+  margin-bottom: 10px;
+  }
+  .obsequio{
+    text-align: center;
+    font-size: 35px;
+    color: #b88d2c;
+    margin-top: 2%; 
+    font-weight: 550;
+    margin: 13%;
+    font-family: 'Dancing Script', cursive; 
+  }
+  
+
+ 
+  .regalo{
+    width: 22%;
+    margin-left: 38%;
+    margin-top: -10%;
+    
+  }
+  .caja-audio{
+    margin-top: 15%;
+  }
+  .Play{
+  
+     font-family: "Aboreto", system-ui;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 5%;
+    font-weight: 600;
+   color: #376282;
+   
+   }
+   .ados{
+    text-decoration: none;
+   }
+   .frasedos{
+  text-align: center;
+    font-size: 30px;
+    color: #4c4c4c;
+    margin-top: 13%; 
+   font-family: "Allura", cursive;
+    font-weight: 400;
+   }
+    h5{
+    font-size: 15px;
+    text-align: center;
+    margin-top: -5%;
+    
+    
+    }
+    .audio{
+      width: 45%;
+      height: 30px;
+      margin-left: 28%;
+      background-color:  #ffffff;
+      color: #3d3d3d;
+      margin-top: 5%;
+      
+  }
+   .musica{
+  text-align: center;
+  font-family: "Allura", cursive;
+   font-size: 25px;
+   color: #242424;
+   font-weight: 500; 
+margin-top: 20%;
+ }
+  .parrafodos{
+    text-align: center;
+    font-size: 25px;
+    color: #4c4c4c;
+    margin-top: 5%; 
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 400;
+         
+  }
+  
+       
+  
+   
+
+    
+    .boton{
+text-align: center;
+margin-top: 10%;
+    }
+
+
+    .form{
+      width: 14%;
+      margin-left: 45%;
+      margin-top: -17%;
+      
+    }
+
+
+.dorado{
+  width: 100%;
+  margin-top: -15%;
+}
+
+.chat{
+width: 20%;
+margin-left: 10% ;
+
+}
+.aita{
+  width: 25%;
+margin-left: 5% ;
+}
+.a2{
+  text-decoration: none;
+}
+.mauri{
+  width: 25%;
+margin-left: 5% ;
+}
+.hojas{
+  width: 65%;
+margin-left:-15% ;
+}
+
+
+
+.parrafoDe{
+  text-align: center;
+  font-size: 22px;
+  color: #4b4b4b;
+  margin-top: 12%; 
+  margin: 10%;
+  font-family: "Arsenal SC", sans-serif;
+  font-weight: 500;
+  background-size:30%;
+  background-color: #e9fdfd;
+
+}
+.parrafo3{
+  text-align: center;
+    font-size: 30px;
+    color: #4c4c4c;
+    margin-top: 5%; 
+     font-family: "Allura", cursive;
+    font-weight: 400;
+       
+}
+
+
+.carousel-inner img{
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 10%;
+}
+
+
+
+
+.esperamos{
+  text-align: center;
+    font-size: 25px;
+    color: #4c4c4c;
+    margin-top: 15%; 
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 400;
+ 
+}
+
+.click2{
+ padding: 2px 10px;
+      font-family: "Arsenal SC", sans-serif;
+      margin-top: 5%;
+      font-size: 25px;
+      font-weight: 400;
+      border: none;
+      border-radius: 20px;
+      color: #fcfcfc;
+     background-image: url(./IMAGENES/confeti.gif);
+     background-size: 150%;
+      box-shadow: 1px 1px 30px -5px#d2c598; 
+      cursor: pointer;
+      background-color: #b88d2c;
+      text-decoration: none;
+      margin-left: 37%;
+}
+.tecla {
+  margin-top: -50%;
+   margin-left: 50%;
+  }
+  
+  
+  .box__copyright {
+    max-width: 1200px;
+    padding: 18px 7px;
+    text-align: center;
+    margin-top: 30%;
+    background-color: #ffffff;
+    font-size: 100%;
+  }
+  
+  .box__copyright p {
+    margin-top: -10px;
+    color: #c3b1b1;
+    font-size: 12px;
+    text-align: center;
+  }
+  
+  .box__copyright a {
+    text-decoration: none;
+    color: #91a891;
+  }
